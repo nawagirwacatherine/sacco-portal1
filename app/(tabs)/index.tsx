@@ -3,6 +3,7 @@ import { useTailwind } from 'tailwind-rn';
 import { ThemedView } from '@/components/ThemedView';
 import { useRouter } from 'expo-router'; 
 
+
 export default function HomeScreen() {
   const tailwind = useTailwind();
   const router = useRouter(); 
@@ -47,6 +48,7 @@ export default function HomeScreen() {
         <Text style={tailwind('text-sm text-gray-600')}>
           - Savings Deposit: +$500
         </Text>
+
       </ThemedView>
     </ScrollView>
   );
